@@ -67,23 +67,11 @@ ul {
   font-size: 14px;
   line-height: 114%;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #212121;
 }
 
-#agencja-portfolio {
-  position: absolute;
-  width: 53px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-  text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 114%;
-  letter-spacing: 0.02em;
-  color: #212121;
+#agencja-index:hover {
+  color: #2196f3;
 }
 
 #portfolio-index {
@@ -104,21 +92,7 @@ ul {
   color: #212121;
 }
 
-#portfolio-portfolio {
-  position: absolute;
-  width: 53px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-  text-decoration: none;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 114%;
-  letter-spacing: 0.02em;
-
+#portfolio-index:hover {
   color: #2196f3;
 }
 
@@ -139,6 +113,10 @@ ul {
   color: #212121;
 }
 
+#kontakty-index:hover {
+  color: #2196f3;
+}
+
 #mail {
   position: absolute;
   width: 135px;
@@ -153,6 +131,10 @@ ul {
   line-height: 114%;
   letter-spacing: 0.02em;
 
+  color: #212121;
+}
+
+#mail:hover {
   color: #2196f3;
 }
 
@@ -171,6 +153,10 @@ ul {
   letter-spacing: 0.02em;
 
   color: #757575;
+}
+
+#tel:hover {
+  color: #2196f3;
 }
 
 .h1-index {
@@ -696,7 +682,7 @@ ul {
   left: 510px;
   top: 94px;
   cursor: pointer;
-  background: #2196f3;
+  background: #f5f4fa;
   /* shadow-middle */
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -715,7 +701,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: #212121;
 }
 
 .strony {
@@ -951,4 +937,9 @@ ul {
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+
+button:hover {
+  background-color: #2196f3;
+  color: #2196f3;
 }
